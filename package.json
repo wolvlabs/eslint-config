@@ -1,0 +1,36 @@
+{
+  "name": "@wolvlabs/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint flat config for wolvlabs projects",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./base": "./base.js",
+    "./browser": "./browser.js",
+    "./react": "./react.js"
+  },
+  "files": [
+    "base.js",
+    "browser.js",
+    "react.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=9"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "typescript-eslint": "^8.62.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolvlabs/eslint-config.git"
+  },
+  "packageManager": "pnpm@11.8.0"
+}
